@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>소개page</title>
+    <style>
+        *{ margin: 0; padding: 0;box-sizing: border-box; text-decoration: none; 
+            font:14px 'GmarketSansMedium','지마켓산스'; color: #BE586D;}
+        .clear:after {content: "";display: block; clear: both;}
+        @font-face {
+        font-family: 'GmarketSansMedium';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+        
+        .inner{width: 1900px; height: 2000px; margin: auto;}
+        header{margin-top: 0px;  height: 200px;text-align: center;}
+        .gnb { float: right; margin-right: 100px;margin-bottom: 20px;}
+        .gnb li {
+            float: left;
+            display: block;}
+        .gnb li a {float: left; display: block;  width: 100px; text-align: left; font-size: 10px; color: black;}
+        .contents:after{content:''; display: block; clear: both;}
+        .side{float: left; width: 300px; height: 1600px; background: #fff;}
+        .con{width: 1600px; height: 1600px; float: left;background: #fff;}
+        #m_menu a {
+            display: block;
+            padding: 10px;
+            margin-left: 50px;
+}
+      #m_menu a.m {
+            font-weight: bold;
+        }
+#m_menu ul a {
+            text-indent: 20px;
+}
+    #m_menu li ul.on{
+            display: block;
+        }
+        p{color: black;}
+        .mycolor {
+            box-sizing: border-box; padding-left: 25px; background: rgba(255,255,255,0.8);width: 1450px;padding-top: 10px;}
+        footer {height: 180px; padding: 50px; background: white;}
+        footer p {text-align: left; color: black; font-size: 80%;}
+        footer img {float: right; padding-right: 50px;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header><a href="#"><img src="%EB%A1%9C%EA%B3%A0.png.png" alt="logo"></a>
+            </header>
+             <ul class="gnb">
+                <li><a href="#"> LOGIN </a></li>
+                <li><a href="#">JOINUS</a></li>
+                <li><a href="#">WISHLIST</a></li>
+                <li><a href="#">ORDER</a></li>
+                <li><a href="#">MYPAGE</a></li>
+                
+            </ul>
+            
+            <div class="contents"></div>
+            <aside class="side">
+                <ul id="m_menu">
+        <li><a href="#" class="m">SHOP</a>
+        </li>
+    <li><a href="#" class="m">퍼스널 컬러</a>
+        <ul>
+            <li><a href="#">봄</a></li>
+            <li><a href="#">여름</a></li>
+            <li><a href="#">가을</a></li>
+            <li><a href="#">겨울</a></li>
+        </ul>
+    </li>
+    <li><a href="#" class="m">회사소개</a>
+    </li>
+    <li><a href="#" class="m">리뷰</a>
+    </li>
+    </ul>
+            </aside>
+            <article class="con">
+            <img src="introduce.jpg" alt="소개">
+            <p>저희 LipSync 는 립 제품에 대한 맞춤형 추천 서비스를 제공하는 기업입니다.<br><br>
+
+ 저희 회사명인 "립싱크"는 일반적으로는 노래나 대사를 따라하면서 입 모양을 맞추는 행위를 의미하지만,<br> 
+저희는 이와는 달리 립 제품에 개인의 색을 맞춘다는 뜻을 담고 있습니다.</p><br>
+          <div class="mycolor">
+           <img src="col1.png" alt="col1">
+           <img src="col2.png" alt="col2">
+           <img src="col3.png" alt="col3">
+           <img src="col4.png" alt="col4">
+           </div>
+           <p>
+               저희 회사에서는퍼스널 컬러에 맞춰 립 제품을 제안해 드립니다.<br> 
+각자의 어울리는 색상들을 통해 립 제품을 제안함으로써 소비자가 자신에게 맞는 최적의 립 제품을 찾을 수 있도록 돕고 있습니다. <br>
+이를 위해 다양한 종류의 립 제품 데이터를 수집하고 분석하여 퍼스널컬러에 적합한 제품 카테고리를 만들어냈습니다.
+<br>
+1. 립 제품 추천<br>
+소비자가 자신에게 맞는 립 제품을 선택할 수 있도록 다양한 립 제품 데이터를 수집하고 분석하여 각 개인에게 적합한 제품을 추천해 줍니다.<br>
+2. 제품 리뷰<br>
+소비자가 제품을 구매하기 전에 참고할 수 있도록 제품에 대한 리뷰를 제공합니다.<br>
+3. 구매 <br>
+소비자가 자신의 스타일에 맞는 제품을 선택후 구매할 수 있도록 사이트 내에서 제공합니다.<br>
+고객들은 저희 회사의 웹사이트를 방문하여 즉시 자신에게 맞는 퍼스널 립 제품을 추천 받을 수 있으며,
+ 원하는 경우 해당 제품을 구매할 수도 있습니다.<br>
+<br>
+또한, 추천 받은 제품 중 마음에 드는 제품이 없는 경우에는 고객센터로 문의주시면 추후에 저희가 해당 제품을 업데이트 해 드리고 있습니다.<br>
+<br>
+저희 회사는 고객 만족도를 높이기 위해 지속적으로 서비스를 개선하고 발전시켜 나가고 있습니다.<br>
+앞으로도 더 많은 분들이 자신에게 꼭 맞는 립 제품을 찾아 아름다움을 표현할 수 있도록 최선을 다하겠습니다. 
+
+감사합니다.
+           </p>
+            </article>
+            <div class="clear"></div>
+            <footer>
+          <img src="%ED%91%B8%ED%84%B0%EC%9D%B4%EB%AF%B8%EC%A7%80.png" width="20%" alt="푸터이미지">
+           <p>(주) 하이미디어 아카데미|서울 종로구 인사동길 12 대일빌딩 15층|대표자 : 김한정
+사업자등록번호 : 220-86-58115|기관명칭 : 하이미디어 아카데미|통신판매업신고 : 제2018-서울종로-0495호|기관등록번호 : 제2304호</p><br>
+           <p>홈페이지관리책임자 : 하이미디어컴퓨터학원,신규접수처,국비지원통합센터,하이미디어대표홈페이지,하이미디어공식홈페이지,하이미디어아카데미,하이미디어인재개발원,하이미디어IT컴퓨터학원</p>
+            <p> copylight&copy;Himedia Academy, All Rights Reserved. </p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
